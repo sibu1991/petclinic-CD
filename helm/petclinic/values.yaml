@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sibu2272/petclinic
+  repository: sibu2272/newapp
   tag: latest
   pullPolicy: IfNotPresent
 
