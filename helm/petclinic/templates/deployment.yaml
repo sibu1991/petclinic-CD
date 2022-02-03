@@ -3,7 +3,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: petclinic-deployment
+  name: petclinic-deploymentt
 spec:
   replicas: 1
   strategy:
@@ -13,11 +13,11 @@ spec:
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app: petclinic-app
+      app: petclinic-app1
   template:
     metadata:
       labels:
-        app: petclinic-app
+        app: petclinic-app1
     spec:
       containers:
       - name: petclinic-container
