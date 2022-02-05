@@ -8,5 +8,5 @@ spec:
  scaleTargetRef:
    apiVersion: extensions/v1beta1
    kind: Deployment
-   name: petclinic-deployment
+   name: petclinic-deploymentt
  targetCPUUtilizationPercentage: 50
