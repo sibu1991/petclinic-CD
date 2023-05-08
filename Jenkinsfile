@@ -5,7 +5,7 @@ pipeline {
             steps {           
                         sh 'ls -altr'
                         sh 'pwd'
-		        sh 'docker pull sibu2272/newapp'
+		        sh 'docker pull sibu2272/petclinic'
                         sh 'cp -R helm/* .'
 		                sh 'ls -altr'
                         sh 'pwd'
